@@ -1,0 +1,531 @@
+<html>
+	<head>
+		<title>Интеракивная карта Актобе</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+		<meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	
+	<!-- Navigation part starts -->
+	
+	<div class="navbar">
+		<ul>
+		  <li><a class="active" href="index.html">Главная страница</a></li>
+		  <li><a href="#about">О нас</a></li>
+		</ul>
+	</div>
+	
+	<!-- Navigation part ends -->
+	
+	<!-- Info part starts -->
+	<p style="padding: 20px;">	&nbsp;	&nbsp;	&nbsp;Ақтөбе облысы Қазақстан Республикасының батысында орналасқан. Ол 1932 жылы 10 наурызда құрылды. Облыстың аумағы 300,6 км2 құрайды (Республикада 2 орын).
+Ақтөбе облысы Қазақстан Республикасының батысында орналасқан. Ол 1932 жылы 10 наурызда құрылды. Облыстың аумағы 300,6 км2 құрайды (Республикада 2 орын). 
+Ақтөбе облыс тұрғындарының саны 883 607 адамды құрайды (01 қаңтар 2020 ж.).
+	</p>
+	<p style="padding: 20px;"> &nbsp;	&nbsp;	&nbsp;Ақтөбе облысының құрамына 12 аудан кіреді: Әйтеке би, Алга, Байғанин, Ырғыз, Карғалы, Қобда, Мартук, Мұғалжар, Темір, Ойыл, Хромтау, Шалкар.
+Ақтөбе қаласы - облыстық әкімшілік орталығы. 1869 жылы Елек пен Қарғала өзендерінің түйіскен жеріндегі  тау бөктерінде негізі қаланған (осылайша атауы - «Ақтөбе»). 450154 адам бар (01.01.2020 ж.).  Бұл облыс халқының 53,92% құрайды. Ақтөбе қаласынан Нұрсұлтан қаласына дейінгі арақашықтық - 1678 км.
+Ақтөбе облысы бірегей жерде орналасқан: солтүстігінде Орынбор облысымен  мемлекеттік шекарасы (Ресей), батысында Батыс Қазақстан, Атырау, Маңғыстау облыстарымен, оңтүстігінде Қарақалпақстан (Өзбекстан) мемлекеттік шекарасы, шығыста Қостанай, Қарағанды, Қызылорда облыстарымен шектеседі. 
+	</p>
+	
+	<!-- Info part ends -->
+	
+	<!-- Map part starts -->
+	
+		<map name="imagemap">
+			<area shape="circle" coords="400, 208, 15" href="#aktobe" data-toggle="modal" data-target="#AktobeModal" />
+			<area shape="circle" coords="329, 143, 14" href="#martuk" data-toggle="modal" data-target="#MartukModal" />
+			<area shape="circle" coords="408, 263, 17" href="#alga" data-toggle="modal" data-target="#AlgaModal" />
+			<area shape="circle" coords="515, 220, 17" href="#hromtau" data-toggle="modal" data-target="#HromtauModal" />
+			<area shape="circle" coords="759, 229, 17" href="#aitekebi" data-toggle="modal" data-target="#AitegebiModal"/>
+			<area shape="circle" coords="804, 474, 17" href="#yrgyz" data-toggle="modal" data-target="#YrgyzModal" />
+			<area shape="circle" coords="645, 594, 17" href="#shalqar" data-toggle="modal" data-target="#ShalqarModal" />
+			<area shape="circle" coords="307, 646, 17" href="#baiganin" data-toggle="modal" data-target="#BaiganinModal" />
+			<area shape="circle" coords="481, 417, 17" href="#mugaljar" data-toggle="modal" data-target="#MugaljarModal" />
+			<area shape="circle" coords="362, 425, 17" href="#temir" data-toggle="modal" data-target="#TemirModal" />
+			<area shape="circle" coords="141, 386, 17" href="#oiyl" data-toggle="modal" data-target="#OiylModal" />
+			<area shape="circle" coords="234, 233, 17" href="#qobda" data-toggle="modal" data-target="#QobdaModal" />
+			<area shape="circle" coords="490, 127, 18" href="#qargaly" data-toggle="modal" data-target="#QargalyModal" />
+		</map>
+		<br><br>
+		<div id="container">
+			<center><img id="map" src="akb.png" usemap="#imagemap"/></center>
+		</div>
+	
+	<!-- Map part ends -->
+	
+	
+	
+	<div name="aktobe" class="container">
+	
+	  <!-- Trigger the modal with a button -->
+	  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="AktobeModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title">Ақтөбе</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <br>
+			  <p style="font-size: 14px; font-weight: bold;">	&nbsp;	&nbsp;	&nbsp;  Стела благодарности казахскому народу</p>
+			  
+			  <img src="img/stela.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p style="font-size: 14px; font-weight: bold;">	&nbsp;	&nbsp;	&nbsp;  Парк им. Первого Президента Республики Казахстан</p>
+			  <img src="img/park.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p>Дереккөзі: </p>
+			  <a href="https://edem-v-gosti.ru/kazakhstan/aktobe/guide/stela-blagodarnosti-kazakhskomu-narodu-v-aktobe.html">edem-v-gosti.ru</a>
+			  <br>
+			  <a href="https://edem-v-gosti.ru/kazakhstan/aktobe/guide/park-im-pervogo-prezidenta-respubliki-kazakhstan-v-aktobe.html">edem-v-gosti.ru</a>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div name="alga" class="container">
+	
+	  <!-- Trigger the modal with a button -->
+	  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="AlgaModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title">Алға</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <img src="img/eset_batyr.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Есет батыр кесенесі - қазақ халқының біртуар ұлы, халық батыры Есет Көкеұлы бейітіне салынған бірден-бір көркем ескерткіш. Ол Ақтөбе қаласынан 44 шақырым жерде Бестамақ ауылында орналасқан.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Есет батыр қазақ халқынынң қолбасшысы және тарханы. Ол Кіші жүздің тама руынан шыққан, Кіші жүздің батыры Бөгенбайдың қызына үйленген, ал Бөгенбай Орта және Кіші жүз қазақтарын Ресейге қосуда көп болысқан азаматтардың бірі еді. Есеттің әкесі Көки Базарқұлұлы да атақты батыр болған, кезінде «Таймас батыр» (берілмейтін) деген атпен атап кеткен. Есеттің өзі Жоңғарларға қарсы соғысудан ерте бастады. Есет Көкеұлы дарынды қолбасшы ғана емес , ол сонымен қатар дарынды саясаткер, мемлекет қайраткері және тәуелсіздік және еркіндік үшін күрескен шынайы күрескер. Есет батыр 82 жасында 1749 жылы қайтыс болды.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Бестамақ ауылының төбесі, Елек өзенінің бойында Ақтөбе қаласының оңтүстік-шығысында 35 шақырымдық жерде жерленген. Бұл төбешікке Есет Көкеұлына 1750 жылдары кесене тұрғызылған. 1979 жылы сол жердің жергілікті тұрғындары ұлы батырға ақ кірпіштен құлыптас орнатты. Құлыптастың биіктігі 1,7 метр, ені 3 метр, ұзындығы 5 метр. </p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Бүгінгі күннің кесенесі 1992 жылы 325 жылдығын тойлауда салынған. Кесене қызғылт түсті Маңғыстау жерінен шыққан ұлутастан салынған. Кесене биіктігі 11 метр ені 5 метр</p>
+			  <br><br>
+			  <p>Дереккөзі: </p>
+			  <a href="https://culturemap.kz">culturemap.kz</a>
+			  <br>
+			  <a href="https://qazaqstan3d.kz/kz/place/view?id=86">qazaqstan3d.kz</a>
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div name="baiganin" class="container">
+	
+	  <!-- Trigger the modal with a button -->
+	  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="BaiganinModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title">Байғанин</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <img src="img/aktolagai.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Ақтолағай үстірті – тарихи және геологиялық маңызы бар республикалық табиғи қорық. Үстірт сонымен қатар өзінің сұлулығымен зерттеушілерді таң қалдырған, шетел ғалымдары қызуғушылық танытып, зерттегендер де бар. Қаз-қатар созылып жатқан жоталардың ұзындығынан көз талады.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Таулардың сұлулығы дәл бір ертегідегідей әсем, ал кіршіксіз әппақтығы еріксіз көз тартады, күн батуға таяған уақытта таудың ақ тастары кемпірқосақ секілді күннің сәулесімен түрлі-түсті түске боялады. Ақ тау мен жиегі көмкерілген көк шалғай шалғын шөптермен, құлпырған гүлдер табиғаттың бір сыйы дерсің. Ертегідей әдемілеп сипаттап қана қойғанымыз емес, шынында да тау етегінде емдік қасиеті бар түрлі өсімдіктер өседі, атап айтқанда итмұрын, долана, жалбыз т.б.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Екі облыстың (Атырау, Ақтөбе) шекарасында орналасқан Ақтолағай үстірті кезінде теңіздің түбі болған. Оған дәлел дәл осы жерлерден тас мүсіндерге айналған теңіз ұлуларының, кірпілерінің, кораллдардың және басқа да теңіз фауналарының көптеген түрлерін кездестіруге болады. Одан бөлек динозаврлардың сүйектері мен тістері, бізге беймәлім өсімдіктердің қалдықтарын көптеп кездестіруге болады. </p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Бұдан түйетін ой – кезінде Ақтолағай үстірті қайнаған тіршіліктің орталығы болғанын, табиғаттың ерекше бір сыйы екенін аңғарамыз. Шөлді және ұйытқыған топырақты жел мен күннен қорғайтын көлеңкелі орын болатын бұл аққарлы жартастар – қызықты оқиға іздеушілерге таптырмас орын деп айтуға болады. Ендігі тілек аталған өңірде туризмді дамыту тізгінін қолға алса (әсіресе жол жағы), елімізден ғана емес, әлемнің түкпір-түкпірінен туристердің ағылып келетін орталығы болатынына кәміл сенеміз.</p>
+			  <br><br>
+			  <p>Дереккөзі: </p>
+			  <a href="https://e-history.kz/kz/seo-materials/show/31162/">e-history.kz</a>
+			  
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div name="aitekebi" class="container">
+	
+	  <!-- Trigger the modal with a button -->
+	  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="AitegebiModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title">Әйтеке би</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <img src="img/han_molasy.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p>	&nbsp;	&nbsp;	&nbsp;«Хан моласы» – ежелгі қорымдардың бірі. Ол Ақтөбе облысына қарасты Әйтеке би ауданы, Толыбай ауылынан 90 км қашықтықта жатыр. Ғалымдар ат басын тіреп, енді ғана көңіл қойып зерттей бастағанда, бұл маңда санаулы төмпешіктер мен әр жерде құлап жатқан құлпытастар ғана көзге ілігетін. Ал күмбезді зираттар бүгінге жетпей жапырылып, жермен-жексен болып кеткен. Әбілхайыр ханның мүрдесі осы қорымда жатқандығын халық арасындағы әңгімелер ғана емес, орыс ғалымдары да өз жазбаларында айтып кетеді.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;1898 жылы И.Крафт бұл қорымның Торғайдан 80 км қашықтықта жатқандығын, хан моласының басында ерекше өскен тал барын жазған, сол секілді бұл орынды киелі тұтып, тәу етіп келушілер көп болғанын айтады. Ал тәуелсіз Қазақстан тұсында «Хан моласы» 2007 жылдан бері толық зерттеліп, оған археологтар ғана емес, тарихшылар, этнографтар, сәулетшілер мен геофизиктер, антропологтар мен генетиктер тартылды. Моланың алып жатқан орны 16 га жетеді. ХХ ғасыр соңында осы орыннан 700 зираттың орны белгілі болса, одан кейінгі зерттеулерде олардың саны мыңға жуықтады.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Бізге жеткен мәліметтерде Әбілхайыр ханның қыпшақтық дәстүрмен жерленгені, яғни қару-жарағы өзімен бірге жер қойнына тапсырылғаны анықталды. Ал мола басына ұлы Нұралы 12 ағаш отырғызған. Зерттеушілер хан зиратын сол арқылы іздеп тапқан. Бірнеше жылдар бойы жүргізілген зерттеулерден соң, бұл орын мемориалды кешен болуы керек деп шешіліп, осы іс қолға алынды.</p>
+			  <br><br>
+			  <p>Дереккөзі: </p>
+			  <a href="https://el.kz/amp/news/puteshestvie/kieli_kazakstan__aktobe_oblisina_sayahat/">el.kz</a>
+			  
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div name="qargaly" class="container">
+	
+	  <!-- Trigger the modal with a button -->
+	  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="QargalyModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title">Қарғалы</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <img src="img/qasqyr.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Ащылысай сарқырамасы (Қасқыр сарқырамасы)</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Қасқыр сарқырамасы туралы бірнеше аңыз бар. Кейде «Немой ауылы» деп те атайды. «Қасқыр сарқырамасы, Ащылысай сарқырамасы, «Немой ауылы» деген атаулар бар. Бұрын бұл маңда ауыл болған. Тоқырау кезінде бәрі көшіп кетіп, Ратай атты бір ғана тұрғын қалған. Ол мылқау болған соң ауыл Немой аталып кеткен секілді. Қасқыр сарқырамасына келер болсақ, көктемде қасқыр бөлтірігін судан өткізбек болып, сарқырамаға түсіріп алған екен. Ұлыған дауыс та шығады деген қауесет бар. Негізі сарқыраманы мамыр айында ғана көруге болады. </p>
+			  
+			  <br><br>
+			  <p>Дереккөзі: </p>
+			  <a href="https://lenta.inform.kz/ru/aktobedegi-kaskyr-sarkyramasyna-turisterdin-kyzygushylygy-artty_a3525139">lenta.inform.kz</a>
+			  
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div name="qobda" class="container">
+	
+	  <!-- Trigger the modal with a button -->
+	  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="QobdaModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title">Қобда</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <img src="img/qobl.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  
+			  <br>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Әлемде эпостық жырлар тудырған санаулы ұлттар бар. Солардың бірі - қазақ халқы. Қазақта 400-ге жуық эпостық жыр бар. Соның ішінде ең көп тарағаны, мазмұны мен көлемі жағынан шұрайлысы - «Қобыланды батыр» жыры. Жырдың 29 нұсқасы бар. Бір замандарда батыр сүйегі жатқан жерде мазар болған. Ол туралы 1906 жылы орыс ғалымы В.В.Карлсон, кейін Жозеф-Антуан Кастанье жазып кеткен. Мазар ерте кезде бұзылып, ХХ ғасырдың бас кезінде үйінді болып қалған. ХХ ғасырдың елуінші жылдары ғұлама ғалым Әлкей Марғұлан осы бейіт басында болған. Алпысыншы жылдардың аяқ кезінде антрополог Ноэль Шаяхметов қазба жұмысын жүргізіп, Герасимов әдісімен бас сүйегіне қарап кескінін жасауды жоспарлайды. Әртүрлі себептермен бұл жұмыс 2000 жылға дейін тоқтап қалған. 2004 жылы «Мәдени мұра» мемлекеттік бағдарламасына кіргізіп, ғылыми жұмыстар жандана бастаған.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Мемориалдық кешен Қобыланды батырдың сүйегі қайта жерленген мавзолейден, Даңқ залынан және белгі тастардан тұрады. Төбесінен қарағанда кешен қалқанның үстіне қойылған батырдың дулығасы және жанында жатқан садаққа ұқсайды. Мавзолейдің негізгі қабырғасы күйдірілген қызыл кірпіштен биіктігі – 7 метрлік 15 үшкіл тіреулер тәрізді қаланып, сыртқы пішіні батырдың дулығасы тәріздес күмбезделген. Кешеннің екінші бөлігі мавзолейдің батыс бөлігіндегі жалпы аумағы – 447 м2 батырдың садағы бейнелі Даңқ залынан, холлдан және әкімшілік-шаруашылық бөлмелерінен тұрады. Кешенде Қобыланды батырдың қайрақ тасы, сүйегі қайта жерленгенде орнатылған тас белгілер орналасқан. Кешен Жиренқопа ауылының шығысындағы Ұлы Қобда өзенінің бойындағы жалпы аумағы – 2,06 га жерді алып жатыр. Кешен құрылысының авторы - ҚР еңбегі сіңген сәулетші Бек Ыбыраев.</p>
+			  
+			  <img src="img/abat.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <p>	&nbsp;	&nbsp;	&nbsp;Батыс Қазақстандағы бірегей және сирек кездесетін сәулет өнерінің ескерткіші Абат-Байтақ Ақтөбе облысы Қобда ауданындағы Бесқопа ауылының шығыс беткейінде он екі шақырым шамасында орналасқан. </p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Ескерткішті XIX ғасырда француз саяхатшысы Жозеф Кастанье ашқан, ХХ ғасырдың 50-70 жылдарында белгілі зерттеуші М.Меңдіқұлов зерттеп, шамамен ХIII ғасырдың бас кезіндегі, Алтын Орда дәуіріне дейінгі қыпшақ ұлысының  Хорезммен тығыз байланыста болған уақыттың қалдырған мұрасы деп болжамдаған.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Ескерткіш белгілі пәлсапашы Асан қайғының баласы Абат батырға арнап тұрғызылған. Бұл қабірден қазба жұмыстары кезінде үш адамның мүрдесі табылған. Байтақ - кең, шексіз деген мағына береді. Далалықта мұндай ғаламат құрылыстар негізінен хан төре тұқымы жерленген қабыр үстінен бой көтерген. Абат-Байтақ кесенесі маңында Қыз әулие бейіті бар.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Кесененің биіктігі – 14,5 метр, кезінде 16 метр болған. Күйдірілген  кірпішпен қаланған. Мұндай кесене бұрын Ұлы далада, Орта Азияда, Поволжье жақта, Әзірбайжанда болған.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Бұл кесене Сары Қобда өзенінің бұрынғы бассейні аумағында тұрғызылған. Сол кездегі заман ағымына сай бұл ескерткіштің алыстан келе жатқан жолаушыға жарқырап көрініп тұруы үшін төбесіне алтын жалатқан бояулармен өрнектер салынуы мүмкін деген болжам бар.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Кесене құрылысы бірнеше жылдар бойы жүргізілген. Құрылысқа тек қана жергілікті материалдардан жасалған кірпіштер пайдаланылған.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;XVIII-XIX ғасырларда кесене маңында көптеген адамдар жерленгенін түрлі үлгіде, өзгеше жасалған құлыптастардан байқауға болады. Олардың саны 200-ден асады.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Кесенеден 15-20 шақырым қашықтықтағы қорғандарды қазғанда шамамен XIII ғасырдың екінші жартысындағы Алтын Орда уақытының сирек жерлеу орындары табылады.
+				2007 жылы Абат-Байтақ кесенесіне жаңарту жұмыстары жүргізілді.
+			  </p>
+			  
+			  
+			  <br><br>
+			  <p>Дереккөзі: </p>
+			  <a href="https://visitkazakhstan.kz/kk/guide/places/view/72/">visitkazakhstan.kz</a>
+			  
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div name="martuk" class="container">
+	
+	  <!-- Trigger the modal with a button -->
+	  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="MartukModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title">Мәртөк</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <img src="img/hrust.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p style="font-size: 14px; font-weight: bold;">	&nbsp;	&nbsp;	&nbsp; "Хрустальды көлдер өлкесі" </p>
+			  <p>	&nbsp;	&nbsp;	&nbsp; Табиғи ескерткіштер - қырыққұлақтар және илеулер, қараольшаник алқабы.  Қалдық үшіншілік қырыққұлақ - әйел қырыққұлағы өсетін Мәртөк ауданының қалдық орманшық бауы мен тоғайлары табиғи ескерткіштер болып табылады. Бұнда зіл сүйектері мен тістері де табылды. 1996 жылы бұл орындарға "Тірі табиғат ескерткіштері" деген статус берілді. Біздің заманымызға дейінгі 6-5 ғғ. бұл өлке сармат мәдениетінің гүлдену орталығы болды, бұғны көптеген құпияларға толы Іле өзенінің сол жағалауында орналасқан ескі қорғандар растайды. Археологтар қорғандарды зерттеуде, ұзын темір қылышпен қаруланған бой ұзындығы балуандікіндей (2 метрге жуық) ер кісі қабірі табылды. Қылыш түсі - қызылкүрең. Мәртөк ауданының аумағында көптеген өзендер шоғырланған, олар құстарды бақылауға арналған тамаша жерлер. Құстарды бақылау - құстарды әуесқос қадағалау. Әлемде 60 миллионнан астам адамдар осы хобби түрімен айналысады. Көптеген адамдар құстардың жаңа түрлерін көру мақсатында ғана әлемдік сапар шегеді. Мәртөк өлкесі құстардың түрлілігімен ерекшеленеді, 200 құс түрінен 160-қа жуық түрі ұя салады, маусымдық көші-қон кезінде қызылжемсаулы қарашақаз, кіші аққу, жыланшы бүркіт, бүркіт, лашынды кездестіруге болады. Жыл сайын туристер саны осы құстар мен өзендер әлеміне ұмтылуда. </p>
+			  
+			  <br><br>
+			  <p>Дереккөзі: </p>
+			  <a href="https://visitaktobe.kz/kz/putevoditelk/kopiya-priroda/kopiya-martuk-kraj-xrustalnyix-ozer">visitaktobe.kz</a>	
+			  
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div name="mugaljar" class="container">
+	
+	  <!-- Trigger the modal with a button -->
+	  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="MugaljarModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title">Мұғалжар</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <img src="img/hrust.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p style="font-size: 14px; font-weight: bold;" >	&nbsp;	&nbsp;	&nbsp; «Төлеубұлақ петроглифтері» </p>
+			  <p>	&nbsp;	&nbsp;	&nbsp; Төлеубұлақ үңгіріндегі петроглифтер Қазақстан-Ресей бірлескен халықаралық экспедициясының 2000 жылы Мұғалажар ауданы аумағындағы тас дәуірінің қоныстарын зерттеу кезінде анықталып, ғылыми айналымға енгізілді. Аталған халықаралық экспедицияның жетекшісі Ресей ғылым академиясының академигі, т.ғ.д., археолог А.П.Деревянко профессорлар В.Т.Петрин мен Ж.К.Таймағамбетов және т.б. археолог ғалымдар болды. Сонымен қатар мұнда 2006 жылы Ә.Марғұлан атындағы археология институтының маманы, археолог, т.ғ.к. З.Самашев одан әрі зерттеу жұмыстарын жүргізді. </p>
+			  <p>   &nbsp;	&nbsp;	&nbsp; Төлеубұлақ үңгірінде бұдан 10 мың жыл шамасы бұрын үңгірде тас дәуірінің адамдары мекендеген. Үңгірдің еденіне тереңдігі 5 см, диаметрі 15-25 см көлемінде суреттер ойылып салынған. Бұл жердегі шағын үңгірлердегі петроглифтерден тұяққа немесе саңырауқұлаққа ұқсас пішіндер, антропоморфтар, сонымен қатар терең ойып жасалған сызықтар кездеседі. Жоғарыда аталған символдардың ең алғашқылары мезолит, тіпті палеолит кезеңінде, неолит кезеңінен әрі уақытта пайда болған деген пікір ұстанады ғалымдар. Бұл кешен Қазақстандағы тас дәуірінен қалған ең көне археологиялық ескерткіш болып табылады. Алайда бірқатар зерттеушілердің пікірінше, бұл шұңқыр тәріздес символдар жер бетінде жүздеген мың жыл бұрын пайда болған ең көне символдар болуы мүмкін деген болжам бар.</p>
+			  <p>   &nbsp;	&nbsp;	&nbsp; Осыдан 250-300 жыл шамасы бұрын Солтүстік Арал маңынан Мұғалжар тауына қоныс аударып, мекен еткен Кіші жүздің Шекті тайпасы Жақайым руынан шыққан Төлеу деген кісінің атымен Төлеубұлақ атанған. </p>
+			  
+			  
+			  <br><br>
+			  <p>Дереккөзі: </p>
+			  <a href="https://visitaktobe.kz/kz/putevoditelk/kieli-zherler/kopiya-obektyi-regionalnogo-znacheniya/kopiya-petroglifyi-toleubulaka">visitaktobe.kz</a>	
+			  
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div name="oiyl" class="container">
+	
+	  <!-- Trigger the modal with a button -->
+	  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="OiylModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title">Ойыл</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <img src="img/barqyn.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p style="font-size: 14px; font-weight: bold;" >	&nbsp;	&nbsp;	&nbsp; «Барқын құмдары» </p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;  Ойыл ауданында 35 мың гектар алқапта таза құмдардан құралған - Барқын барханы. Сарапшылардың айтуы бойынша, бұл жерде теніз болған, одан соң суы кетіп, таза құм қалған деседі. Бұнда тұрғылықты халық құмды ванналарға түседі. Құммен процедуралар жөнінде алғаш рет Вавилонның клинопластикалық кестелерінде жазылды, берілген процедура псаммотерапия - ыстық құммен емдеу деп аталады. Бұл емдік әдісі дәстүрлі медицинада сирек қолданылады, шипажайларда минералды ванна немесе балшықпен емдеуде сұранысқа ие. Кеңес дәрігері Николай Васильевич Парийский ғылыми тұрғыдан псаммотерпияның тиімділігін дәлелдеді. Қазіргі таңда да құммен емдеу кеңінен танымал. </p>
+			  <br>
+			  <img src="img/kokjar.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p style="font-size: 14px; font-weight: bold;" >	&nbsp;	&nbsp;	&nbsp; «Көкжар жәрмеңкесі» </p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Көкжар Жәрмеңкесі– Ойыл бекінісінде (қазіргі Ақтөбе облысы) 19 ғ-да жұмыс істеген маусымдық сауда-саттық орны. Ол жылына екі рет: көктемде (15 мамырдан 15 маусымға дейін) және күзде (15 қыркүйектен 15 қазанға дейін) ашылған. Сақталған статистикалық деректерге қарағанда, 1900 ж. Көкжар Жәрмеңкесінің көктемгі ашылуында тауар айналымы 1 млн. 491 мың сом, ал күзгі мерзімде 509 мың сомға жеткен. Көкжар Жәрмеңкесінде қазақтар орыс тауарларына (мата, ыдыс-аяқ, қант-шай, т.б.) қой, жылқы, т.б. мал шаруашылығының өнімдерін (түйе жүнін, қой жүні мен терісін, ешкі түбітін, елтіріні, т.б.) киіз, жүннен тоқылған кілемді, ішік тонды, аң терілерін (түлкі, қарсақ, қасқыр, т.б.) айырбастаған. Мұндағы сауда айырбас жасау сипатында болды.  </p>
+			  <br><br>
+			  <p>Дереккөзі: </p>
+			  <a href="https://visitaktobe.kz/kz/putevoditelk/kopiya-priroda/kopiya-peski-barkyin">visitaktobe.kz</a>	
+			  <br>
+			  <a href="https://kk.wikipedia.org/wiki/%D0%9A%D3%A9%D0%BA%D0%B6%D0%B0%D1%80_%D0%B6%D3%99%D1%80%D0%BC%D0%B5%D2%A3%D0%BA%D0%B5%D1%81%D1%96">Қазақ Энциклопедиясы, 11 - том</a>	
+			  
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div name="hromtau" class="container">
+	
+	  <!-- Trigger the modal with a button -->
+	  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="HromtauModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title">Хромтау</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <img src="img/aidarlyasha.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p style="font-size: 14px; font-weight: bold;">	&nbsp;	&nbsp;	&nbsp;“Айдарлыаша” геологиялық қимасы</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp; “Айдарлыаша” геологиялық қимасы Ақтөбе облысы, Хромтау ауданында орналасқан. 1996 жылы дүние жүзі халықтарының Қытайда өткен Халықаралық геологиялық конгресінде Айдарлыаша қимасы карбон мен перм дәуірлерінің сақталған теңдесі жоқ орны деп танылған. Осы конгресте Айдарлыаша қимасына халықаралық геологиялық ескерткіш дәрежесі берілген.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Аудан территориясында 350 млн. жыл бұрын өткен карбон кезеңінің соңы мен пермь кезеңінің басындағы ежелгі жануарлар мен өсімдіктердің таңбалары сақталған Айдарлыаша қимасы бар. Ол көлемі 3 гектар, ені 200 метр, ұзындығы 1500 м болатын жіңішке алқап. Жер бетіндегі тіршіліктің дамуы туралы толық мағлұмат беретін мекен, оның өзге формасы басқа жерде кездеспейді. Айдарлыаша қимасы 50-ші жылдардан бері зерттеліп келеді.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Айдарлыаша өзенінің аңғары-таскөмір және перм жүйесі шекарасының тірек қимасы, аммоноидтар, фузулинидтер, конодонттар фаунасының орналасқан жері. Қима Новороссийск селосынан батысқа қарай 10 км жердегі Айдарлыаша өзенінің оң жақ құламалы жағасында орналасқан. Органикалық қазба қалдықтарының бірегей орны қимада біркелкі бөлінбеген. Қиманың оңтүстік бөлігінде фузулинидтер мен конодонттар басым таралған, аммоноидеялар сирек. Қиманың жалпы қуаты 988 м. Айдарлыаша өзенінің аңғары бірден-бір сақталған қазба органикалық қалдықтардың бірегей орны. Карбон мен пермьнің шекаралас қабаттарының қимасы белгілі бір жер мен уақытта тірліктің даму деңгейі, климаты, тұнбаның жинақталу жағдайлары туралы ақпарат береді.</p>
+			  
+			  <br><br>
+			  <p>Дереккөзі: </p>
+			  <a href="https://abai.institute/post/aidarlyasha-geologiyalyq-qimasy-271/">abai.institute</a>
+			  
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<div name="yrgyz" class="container">
+	
+	  <!-- Trigger the modal with a button -->
+	  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+	  <!-- Modal -->
+	  <div class="modal fade" id="YrgyzModal" role="dialog">
+		<div class="modal-dialog">
+		
+		  <!-- Modal content-->
+		  <div class="modal-content">
+			<div class="modal-header">
+			<h4 class="modal-title">Ырғыз</h4>
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  
+			</div>
+			<div class="modal-body">
+			  <img src="img/jamanshyn.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p style="font-size: 14px; font-weight: bold;">	&nbsp;	&nbsp;	&nbsp;«Жаманшың» метеорит кратері</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Жаманшыңды алғашқылар болып зерттеген 1937-1939 жылдар аралығында ғалым А.Л.Яншин мен В.А.Вахрамеев болып табылады. Сол жылдар аралығында геологтар Жамашыңда зерттеу жұмыстарын жүргізеді. Нәтижесінде жер бетінен палеозой дәуірінің жыныстарын табады. Жаманшыңның құпияларын табу зерттеуші ғалымдарға оңайға түскен жоқ. Сондықтан да бұл жердегі геологиялық жұмыстар 1946, 1957, 1961 және 1963 жылдары одан әрі жалғасын тапты. Зерттеу жұмыстары кезінде ол жерден қара түсті шлактар, әйнектің ерекше түрлері көптеп кездеседі. Табылған кен үлгілері Мәскеудегі білікті ғалым Петр Флоренскийге жіберіледі. П.Флоренский 1975-1976 жылдары Жаманшыңның жарылыстан пайда болған ойпат екендігін ғылыми түрде негіздеп дәлелдеді. Осыннан табылған ерекше тастарға жаманшит, иргизит деген атаулар берілді. Осыдан кейін барып, яғни 1977 жылдың жаз айында метеориттер жөніндегі комитеттің экспедициясы жұмыс істей бастайды. 1989 жылдың қыркүйегінде АҚШ, Канада, ГФР және Франция елдерінің ғалымдарынан құралған халықаралық экспедиция ұйымдастырылып, Жаманшың әлем назарын аударды.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Зерттеушілер Жаманшың осыдан 075-1,1 млн жылдар бұрын оңтүстік шығыстан – солтүстік батысқа қарап ұшқан ірі метеориттің жерге қиғаш (көлбеу) құлау салдарынан пайда болғандығын анықтады. Ойпаттың диаметрі 5-6 шақырым, түбі жайпақ, бауырайы көлбеу, тереңдігі 700 метрдей. Метеориттің диаметрі 200-400 метрге жетеді.</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Жаманшың атауы туралы аңыз көп. Ол жерге өсімдікте шықпай, жәндіктерде жолай алмағандықтан жұрт Жаманшың деп атап кеткен. Жаугершілік жылдары қуғын-сүргінге ұшырағандар осында келіп паналған, құрсанып келген қуғыншылар таба алмаған. 1960 жылдары осы Жаманшыңда құпия әскери бөлімше тұрған. Алып машиналар, қару-жарақтар, оқ-дәрілер, тіпті әскери ұшақтар қонатын болған. Жаманшың аумағынан табылған тектиттер ТМД елдері территориясында бірінші рет тек біздің Ақтөбе облысынан ғана табылып отыр. Бұрынғы замандарда адамдар бұл заттан түрлі бұйымдар жасағаны да зерттеушілерге мәлім. Ал герцог Эденбург осы тектиттерден моншақ тізіп, корольге сыйға тартқан.</p>
+			  <br>
+			  <img src="img/qasqyr.jpg" style="height: 250px; width: 400px; text-align: center; display: block; margin-left: auto; margin-right: auto;">
+			  <br>
+			  <p style="font-size: 14px; font-weight: bold;">	&nbsp;	&nbsp;	&nbsp;Ырғыз-Торғай мемлекеттік табиғи-зоологиялық қорық</p>
+			  <p>	&nbsp;	&nbsp;	&nbsp;Ырғыз-Торғай мемлекеттік табиғи-зоологиялық қорық - Ақтөбе облысының Ырғыз ауданында, солтүстік шөл аймағында орналасқан. Қорғалған ландшафттары - Торғай өзенінің алқабы батпақты шалғындар мен тұқымды бұталармен, сулы-батпақты жерлермен, шөп-жусанмен және көпжылдық тұзды өсімдіктермен жазылған кең жазықты. Қазақстан Республикасы Үкіметінің 2007 жылдың 14 ақпанынан №109 қаулысы " Қазақстан Республикасы Ауыл шаруашылығы министрлігінің Орман және аң шаруашылығы комитеті "Ырғыз-Торғай мемлекеттік табиғи-зоологиялық қорығы" мемлекеттік мекемесін құру" бойынша ақбөкеннің бетпақдала популяциясын, сондай-ақ сулы-батпақты жерлерді, дала мен шөлді ландшафтарды қорғау жəне қалпына келтіру мақсатында құрылды. Жалпы ауданы 52 мың гектардың ішінде Торғай мемлекеттік табиғи қорығы аумағында орналасқан жер телімі, сондай-ақ, Ырғыз ауданы аумағында орналасқан жалпы ауданы 711,549 га құрайтын босалқы жер. Ырғыз-Торғай қорығы заңды тұлғалар құрған Қазақстанның ерекше қорғалатын табиғи аумағы болып табылады. 1967 жылы ұйымдастырылған. Оның жерлері Халықаралық табиғат қорғау одағының (ХТҚО) тізіміне енгізілген, судың және құстардың бірегей түрлерін сақтау үшін халықаралық маңызы бар сулы-батпақты жерлер. Мұнда Қазақстан Республикасының Қызыл кітабына енгізілген түрлердің ішінде саңқылдақ аққу, бұйра бірқазан, қарабайыр бұлдырық, ақбас тырна, дала бүркіті және аққұйрықты субүркіті тіршілік етеді. Ұшу кезінде әдетте кішкене аққу, қоқиқаз, қызылжемсаулы қарашақаз, дуадақ, ірі сұңқарлар, біздің заманымызда сирек кездесетін ақтырнаны көруге болады. Қорық қорында балықтың бағалы түрлері бар - сазан, мөңке балық, шортан, аққайран. Мұнда Қызыл кітапқа енгізілген сирек жануарлар - ақбөкендердің көші-қон жолы жатыр.</p>
+			  
+			  
+			  
+			  <br><br>
+			  <p>Дереккөзі: </p>
+			  <a href="https://visitaktobe.kz/kz/putevoditelk/kieli-zherler/kopiya-obektyi-respublikanskogo-znacheniya/kopiya-meteoritnyij-krater-zhamanshin">visitaktobe.kz</a>
+			  <br>
+			  <a href="https://visitaktobe.kz/kz/putevoditelk/kopiya-priroda/kopiya-irgiz-turgajskij-gosudarstvennyij-prirodnyij-zoologicheskij-rez">visitaktobe.kz</a>
+			  
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	
+	<br><br>
+		
+		
+		
+		
+	<!-- Footer part -->	
+		
+	<div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Company Name © 2018</p>
+            </div>
+        </footer>
+    </div>
+	
+	<!-- Footer part ends -->
+</html>
